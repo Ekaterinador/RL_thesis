@@ -24,11 +24,3 @@ To install the package, cd to the root directory of the package (Skoltech-ML-202
 pip install -e .
 ```
 
-## Running instructions: 
-- Run the notebook (ML_final_act_crt.ipynb) for training 
-- You can load the models whights as they are saved
-
-``` sh 
-torch.load(actor.pth)
-```
-The loading line is commented in the notebook too 
